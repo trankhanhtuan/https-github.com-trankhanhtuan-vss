@@ -78,7 +78,7 @@ func main() {
 	}
 	defaultConfig.Inject.Payload = ""
 	defaultConfig.Inject.Timeout = 5
-	defaultConfig.PsiphonCore = 40
+	defaultConfig.PsiphonCore = 4
 	defaultConfig.Psiphon = libpsiphon.DefaultConfig
 
 	if runtime.GOOS == "windows" {
